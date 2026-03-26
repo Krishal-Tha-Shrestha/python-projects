@@ -4,7 +4,7 @@ def get_number():
     number=random.choice(option)
     return number
 
-def check(number,guess):
+def check(number):
     while True:
         guess=input("Enter your guess")
         if number==guess:
